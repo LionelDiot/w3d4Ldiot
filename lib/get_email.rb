@@ -24,3 +24,5 @@ def perform(url)
   }
   return cityhalls_email
 end
+
+puts perform("http://www.annuaire-des-mairies.com/val-d-oise.html").inspect

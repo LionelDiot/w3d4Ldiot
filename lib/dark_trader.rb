@@ -30,3 +30,5 @@ def coin_hash(coin_value_array, coin_name_array)
   }
   return coin_hash_array
 end
+
+puts coin_hash(coin_value(download_coinmarket), coin_name(download_coinmarket)).inspect
